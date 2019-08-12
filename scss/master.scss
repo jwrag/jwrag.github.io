@@ -1,2 +1,19 @@
+@mixin center {
+    display: block;
+    margin: 0 auto;
+}
+
+@mixin border-rad  ($radius) {
+    -webkit-border-radius: block;
+    border-radius: $radius;
+}
+
+@mixin opacity ($opacity) {
+    opacity: $opacity;
+}
+
+
+
 @import "colours";
 @import "fonts";
+@import "nav";
